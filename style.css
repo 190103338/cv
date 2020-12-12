@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Popppins', sans-serif;
+}
+.banner{
+   /* position: absolute; */
+   background-color: rgb(248, 207, 207);
+   min-height: 100vh;
+   display: flex;
+   width: 100%;
+}
+#img{
+    width: 50%;
+    position: relative;
+    padding-right: -352px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+.textbx{
+    padding: 100px;
+    padding-top: 200px;
+}
+.banner h2  {
+    font-size: 3em;
+    color: white;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+.banner h2 span{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.banner h3  {
+    font-size: 1.5em;
+    color: white;
+    font-weight: 500;
+}
+.btn{
+    position: relative;
+    background: white;
+    display: inline-block;
+    color: rgb(248, 207, 207);
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+    border-radius: 20px;
+}
+.btnV{
+    position: relative;
+    background: rgb(248, 207, 207);
+    display: inline-block;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+    border-radius: 20px;
+}
+.logo {
+    margin-right: 400px;
+    margin-left: 50px;
+}
+.header.sticky .logo {
+    color: #111;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+.header.sticky{
+    background: #fff;
+    padding: 20px 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+header ul {
+    position: relative;
+    display: flex;
+}
+header ul li {
+    position: relative;
+    list-style: none;
+}
+header ul li a {
+    position: relative;
+    display: inline-block;
+    margin: 0 50px;
+    color: white;
+    text-decoration: none;
+}
+.header.sticky ul li a {
+    color: #111;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.heading{
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    color:rgb(248, 207, 207);
+}
+.heading h2{
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+.contentAM h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #F8CFCF;
+}
+.contentAM_img {
+    position: relative;
+    max-width: 100%;
+    margin-left: 30px;
+}
+
+.skills .contentSK {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.skills .contentSK .skillBx {
+    padding: 40px 20px;
+    max-width: 340px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+ .contentSK :hover{
+    background-color: #D5F5EE;
+}
+.skills .contentSK .skillBx h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #6CA6CD;
+}
+.skills .contentSK .skillBx p {
+    color: #6CA6CD;
+}
+.work .contentW .workBx{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   flex-direction: row;
+}
+.work .contentW .workBx{
+    width: 50%;
+    padding: 20px;
+}
+.work .contentW .workBx img {
+    max-width: 90%;
+}
+footer {
+    background-color: #F8CFCF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
